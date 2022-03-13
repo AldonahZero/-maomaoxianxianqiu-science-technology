@@ -34,7 +34,7 @@
 					</view>
 				</view>
 				<view class="coupon">
-					<text class="title">"霸气mini卡"超级购券活动，赶紧去购买</text>
+					<text class="title">"霸气mini卡"超级活动，赶紧去看看</text>
 					<view class="iconfont iconarrow-right"></view>
 				</view>
 			</view>
@@ -71,7 +71,7 @@
 											<text class="name">{{ good.name }}</text>
 											<text class="tips">{{ good.content }}</text>
 											<view class="price_and_action">
-												<text class="price">￥{{ good.price }}</text>
+												<text class="price">猫长{{ good.price }}</text>
 												<view class="btn-group" v-if="good.use_property">
 													<button type="primary" class="btn property_btn" hover-class="none"
 													 size="mini" @tap="showGoodDetailModal(item, good)">
@@ -109,9 +109,9 @@
 					<image src="/static/images/menu/cart.png" class="cart-img" @tap="openCartPopup"></image>
 					<view class="tag">{{ getCartGoodsNumber }}</view>
 				</view>
-				<view class="price">￥{{ getCartGoodsPrice }}</view>
+				<view class="price">猫长{{ getCartGoodsPrice }}</view>
 				<button type="primary" class="pay-btn" @tap="toPay" :disabled="disabledPay">
-					{{ disabledPay ? `差${spread}元起送` : '去结算' }}
+					{{ disabledPay ? `差${spread}猫长起送` : '去结算' }}
 				</button>
 			</view>
 			<!-- 购物车栏 end -->
@@ -151,7 +151,7 @@
 			</scroll-view>
 			<view class="action">
 				<view class="left">
-					<view class="price">￥{{ good.price }}</view>
+					<view class="price">猫长{{ good.price }}</view>
 					<view class="props" v-if="getGoodSelectedProps(good)">
 						{{ getGoodSelectedProps(good) }}
 					</view>
@@ -187,7 +187,7 @@
 								<view class="props">{{ item.props_text }}</view>
 							</view>
 							<view class="center">
-								<text>￥{{ item.price }}</text>
+								<text>猫长{{ item.price }}</text>
 							</view>
 							<view class="right">
 								<button type="default" plain size="mini" class="btn" hover-class="none"
@@ -206,7 +206,7 @@
 								<view class="name">包装费</view>
 							</view>
 							<view class="center">
-								<text>￥{{ parseFloat(store.packing_fee) }}</text>
+								<text>猫长{{ parseFloat(store.packing_fee) }}</text>
 							</view>
 							<view class="right invisible">
 								<button type="default" plain size="mini" class="btn" hover-class="none">
@@ -225,7 +225,7 @@
 		<!-- 购物车详情popup -->
 	</view>
 	<view class="loading" v-else>
-		<image src="/static/images/loading.gif"></image>
+		<image src="http://r8op8s8h2.hn-bkt.clouddn.com/IMG_7911.GIF"></image>
 	</view>
 </template>
 
@@ -292,7 +292,7 @@ export default {
 		disabledPay() { //是否达到起送价
 			return this.orderType == 'takeout' && (this.getCartGoodsPrice < this.store.min_price) ? true : false
 		},
-		spread() { //差多少元起送
+		spread() { //差多少猫长起送
 			if(this.orderType != 'takeout') return
 			return parseFloat((this.store.min_price - this.getCartGoodsPrice).toFixed(2))
 		}

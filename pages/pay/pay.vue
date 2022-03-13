@@ -72,7 +72,7 @@
 								</view>
 								<view class="d-flex flex-fill justify-content-between align-items-center text-color-base font-size-lg">
 									<view>x{{ item.number }}</view>
-									<view>￥{{ item.price }}</view>
+									<view>猫长{{ item.price }}</view>
 								</view>
 							</view>
 							<view class="text-truncate font-size-base text-color-assist">
@@ -84,21 +84,21 @@
 						<list-cell last v-if="store.packing_fee > 0">
 							<view class="w-100 d-flex font-size-base align-items-center justify-content-between">
 								<view>包装费</view>
-								<view>￥{{ parseFloat(store.packing_fee) }}</view>
+								<view>猫长{{ parseFloat(store.packing_fee) }}</view>
 							</view>
 						</list-cell>
 						<list-cell last v-if="store.delivery_cost > 0">
 							<view class="w-100 d-flex font-size-base align-items-center justify-content-between">
 								<view>配送费</view>
-								<view>￥{{ parseFloat(store.delivery_cost) }}</view>
+								<view>猫长{{ parseFloat(store.delivery_cost) }}</view>
 							</view>
 						</list-cell>
 					</template>
 				</view>
 				<list-cell arrow @click="goToPackages">
 					<view class="flex-fill d-flex justify-content-between align-items-center">
-						<view class="text-color-base">奈雪券</view>
-						<view class="text-color-primary">超值购买优惠券大礼包</view>
+						<view class="text-color-base">毛线球券</view>
+						<view class="text-color-primary">超值购兑换优惠券大礼包</view>
 					</view>
 				</list-cell>
 				<list-cell arrow>
@@ -109,8 +109,8 @@
 				</list-cell>
 				<list-cell last>
 					<view class="flex-fill d-flex justify-content-end align-items-center">
-						<view>总计￥{{ total }},实付</view>
-						<view class="font-size-extra-lg font-weight-bold">￥{{ amount }}</view>
+						<view>总计猫长{{ total }},实付</view>
+						<view class="font-size-extra-lg font-weight-bold">猫长{{ amount }}</view>
 					</view>
 				</list-cell>
 			</view>
@@ -128,7 +128,7 @@
 				<list-cell>
 					<view class="d-flex align-items-center justify-content-between w-100 disabled">
 						<view class="iconfont iconbalance line-height-100 payment-icon"></view>
-						<view class="flex-fill">余额支付（余额￥0）</view>
+						<view class="flex-fill">余额支付（余额猫长0）</view>
 						<view class="font-size-sm">余额不足</view>
 						<view class="iconfont iconradio-button-off line-height-100 checkbox"></view>
 					</view>
@@ -154,7 +154,7 @@
 		<!-- 付款栏 begin -->
 		<view class="w-100 pay-box position-fixed fixed-bottom d-flex align-items-center justify-content-between bg-white">
 			<view class="font-size-sm" style="margin-left: 20rpx;">合计：</view>
-			<view class="font-size-lg flex-fill">￥{{ amount }}</view>
+			<view class="font-size-lg flex-fill">猫长{{ amount }}</view>
 			<view class="bg-primary h-100 d-flex align-items-center just-content-center text-color-white font-size-base"
 				style="padding: 0 60rpx;" @tap="submit">
 				付款

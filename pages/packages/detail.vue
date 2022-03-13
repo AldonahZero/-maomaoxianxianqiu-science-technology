@@ -4,7 +4,7 @@
 		<view style="padding: 30rpx 40rpx; padding-bottom: 100rpx;">
 			<view class="d-flex justify-content-between align-items-center" style="margin-bottom: 20rpx;">
 				<view class="font-size-lg">{{ package.title }}</view>
-				<view class="text-color-primary font-size-sm">购买记录</view>
+				<view class="text-color-primary font-size-sm">购兑换记录</view>
 			</view>
 			<view class="text-color-assist font-size-sm" style="margin-bottom: 20rpx;">
 				共{{couponNum}}张优惠券
@@ -33,12 +33,12 @@
 				</view>
 			</view>
 			<!-- 优惠券列表 end -->
-			<view class="font-size-extra-lg" style="margin-bottom: 40rpx;">购买须知</view>
+			<view class="font-size-extra-lg" style="margin-bottom: 40rpx;">购兑换须知</view>
 			<view class="font-size-base text-color-base">
 				售卖时间：{{ package.start_at.split(' ')[0] }}~{{ package.end_at.split(' ')[0] }}
 			</view>
 			<view class="font-size-base text-color-base" style="margin-bottom: 30rpx;">
-				购买限制：无限制
+				购兑换限制：无限制
 			</view>
 			<view class="font-size-sm text-color-assist pre-line">
 				{{ package.content }}
@@ -47,7 +47,7 @@
 		<view class="pay-box d-flex just-content-center align-items-center position-fixed fixed-bottom bg-white">
 			<button type="primary" class="pay-btn font-size-base text-color-white rounded-pill"
 				style="width: 90%;height: 80rpx; line-height: 80rpx;">
-				￥{{ package.amount }}购买
+				猫长{{ package.amount }}购兑换
 			</button>
 		</view>
 		<modal custom :show="couponDetailModalShow" @cancel="closeCouponDetailModal">

@@ -5,7 +5,7 @@
 			
 			<view class="balance-info d-flex justify-content-between">
 				<view class="flex-fill d-flex flex-column align-items-between justify-content-between">
-					<view class="font-size-sm text-color-base">账户余额（元）</view>
+					<view class="font-size-sm text-color-base">账户余额（猫长）</view>
 					<view class="font-size-extra-lg text-color-base font-weight-bold">0</view>
 					<view class="font-size-sm text-color-primary">交易记录</view>
 				</view>
@@ -19,7 +19,7 @@
 					 :class="{'bg-primary text-color-white': item.selected, 'bg-base text-color-base': !item.selected}"
 					  v-for="(item, index) in amounts" :key="index" @tap="handleSelected(index)">
 					<view class="font-size-extra-lg font-weight-bold">{{ parseInt(item.value) }}</view>
-					<view class="font-size-sm font-weight-light">元</view>
+					<view class="font-size-sm font-weight-light">猫长</view>
 				</view>
 			</view>
 			
@@ -38,7 +38,7 @@
 					<view class="text-color-base">我已阅读并同意</view>
 					<view class="text-color-primary">《储值协议》</view>
 				</view>
-				<button type="primary" class="b">购买</button>
+				<button type="primary" class="b">购兑换</button>
 			</view>
 			<!-- bottom box end -->
 			

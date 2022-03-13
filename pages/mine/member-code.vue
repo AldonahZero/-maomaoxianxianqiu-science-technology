@@ -17,7 +17,7 @@
 				<view class="w-100 d-flex font-size-sm text-color-assist mb-30">
 					<view class="user-grid" @tap="coupons">
 						<view class="value">{{ member.couponNum }}</view>
-						<view>奈雪券</view>
+						<view>毛线球券</view>
 					</view>
 					<view class="user-grid" @tap="integrals">
 						<view class="value">{{ member.pointNum }}</view>

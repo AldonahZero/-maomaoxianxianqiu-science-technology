@@ -2,7 +2,7 @@ export default [
     {
         "happenedDate": "2020-05-11",
         "sourceType": 5,
-        "sellerName": "奈雪の茶",
+        "sellerName": "毛毛线线球",
         "changeNum": 1,
         "changeType": 1,
         "reason": "积分签到奖励",
@@ -12,7 +12,7 @@ export default [
     {
         "happenedDate": "2020-05-10",
         "sourceType": 5,
-        "sellerName": "奈雪の茶",
+        "sellerName": "毛毛线线球",
         "changeNum": 1,
         "changeType": 1,
         "reason": "积分签到奖励",
@@ -22,7 +22,7 @@ export default [
     {
         "happenedDate": "2020-05-09",
         "sourceType": 5,
-        "sellerName": "奈雪の茶",
+        "sellerName": "毛毛线线球",
         "changeNum": 1,
         "changeType": 1,
         "reason": "积分签到奖励",
@@ -32,7 +32,7 @@ export default [
     {
         "happenedDate": "2020-05-08",
         "sourceType": 1,
-        "sellerName": "奈雪の茶",
+        "sellerName": "毛毛线线球",
         "changeNum": 50,
         "changeType": 1,
         "reason": "消费增加",
@@ -42,7 +42,7 @@ export default [
     {
         "happenedDate": "2020-05-08",
         "sourceType": 5,
-        "sellerName": "奈雪の茶",
+        "sellerName": "毛毛线线球",
         "changeNum": 1,
         "changeType": 1,
         "reason": "积分签到奖励",
@@ -52,7 +52,7 @@ export default [
     {
         "happenedDate": "2020-05-07",
         "sourceType": 5,
-        "sellerName": "奈雪の茶",
+        "sellerName": "毛毛线线球",
         "changeNum": 1,
         "changeType": 1,
         "reason": "积分签到奖励",
@@ -62,7 +62,7 @@ export default [
     {
         "happenedDate": "2020-05-06",
         "sourceType": 5,
-        "sellerName": "奈雪の茶",
+        "sellerName": "毛毛线线球",
         "changeNum": 1,
         "changeType": 1,
         "reason": "积分签到奖励",
@@ -72,7 +72,7 @@ export default [
     {
         "happenedDate": "2020-05-05",
         "sourceType": 1,
-        "sellerName": "奈雪の茶",
+        "sellerName": "毛毛线线球",
         "changeNum": 73,
         "changeType": 1,
         "reason": "消费增加",
@@ -82,7 +82,7 @@ export default [
     {
         "happenedDate": "2020-05-03",
         "sourceType": 5,
-        "sellerName": "奈雪の茶",
+        "sellerName": "毛毛线线球",
         "changeNum": 1,
         "changeType": 1,
         "reason": "积分签到奖励",
@@ -92,7 +92,7 @@ export default [
     {
         "happenedDate": "2020-05-02",
         "sourceType": 5,
-        "sellerName": "奈雪の茶",
+        "sellerName": "毛毛线线球",
         "changeNum": 1,
         "changeType": 1,
         "reason": "积分签到奖励",
@@ -102,7 +102,7 @@ export default [
     {
         "happenedDate": "2020-04-25",
         "sourceType": 1,
-        "sellerName": "奈雪の茶",
+        "sellerName": "毛毛线线球",
         "changeNum": 43,
         "changeType": 1,
         "reason": "消费增加",
@@ -112,7 +112,7 @@ export default [
     {
         "happenedDate": "2020-04-25",
         "sourceType": 5,
-        "sellerName": "奈雪の茶",
+        "sellerName": "毛毛线线球",
         "changeNum": 1,
         "changeType": 1,
         "reason": "积分签到奖励",
@@ -122,7 +122,7 @@ export default [
     {
         "happenedDate": "2020-04-24",
         "sourceType": 1,
-        "sellerName": "奈雪の茶",
+        "sellerName": "毛毛线线球",
         "changeNum": 57,
         "changeType": 1,
         "reason": "消费增加",
@@ -132,7 +132,7 @@ export default [
     {
         "happenedDate": "2020-04-18",
         "sourceType": 1,
-        "sellerName": "奈雪の茶",
+        "sellerName": "毛毛线线球",
         "changeNum": 56,
         "changeType": 1,
         "reason": "消费增加",
@@ -142,7 +142,7 @@ export default [
     {
         "happenedDate": "2020-04-10",
         "sourceType": 1,
-        "sellerName": "奈雪の茶",
+        "sellerName": "毛毛线线球",
         "changeNum": 33,
         "changeType": 1,
         "reason": "消费增加",

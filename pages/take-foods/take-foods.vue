@@ -1,7 +1,7 @@
 <template>
 	<view class="container">
 		<view v-if="!Object.keys(order).length" class="d-flex w-100 h-100 flex-column just-content-center align-items-center">
-			<image src="/static/images/loading.gif" class="drinks-img"></image>
+			<image src="http://r8op8s8h2.hn-bkt.clouddn.com/IMG_7911.GIF" class="drinks-img"></image>
 			<view class="tips d-flex flex-column align-items-center font-size-base text-color-assist">
 				<view>您还没有点单</view>
 				<view>快去犒劳一下自己吧~</view>
@@ -91,7 +91,7 @@
 										</view>
 										<view class="d-flex w-40 align-items-center justify-content-between pl-30">
 											<view class="font-size-base text-color-base">x{{ good.number }}</view>
-											<view class="font-size-base text-color-base font-weight-bold">￥{{ good.price }}</view>
+											<view class="font-size-base text-color-base font-weight-bold">猫长{{ good.price }}</view>
 										</view>
 									</view>
 								</view>
@@ -109,7 +109,7 @@
 								</view>
 								<view class="pay-cell">
 									<view>金额总计</view>
-									<view class="font-weight-bold">￥{{ order.amount }}</view>
+									<view class="font-weight-bold">猫长{{ order.amount }}</view>
 								</view>
 							</view>
 						</list-cell>

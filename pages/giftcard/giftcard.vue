@@ -1,11 +1,11 @@
 <template>
 	<view class="container">
 		<view class="tabbar">
-			<view class="item" :class="{'active': !currentTab}" @tap="switchTab(0)">购买礼品卡</view>
+			<view class="item" :class="{'active': !currentTab}" @tap="switchTab(0)">购兑换礼品卡</view>
 			<view class="item" :class="{'active': currentTab}" @tap="switchTab(1)">我的礼品卡</view>
 		</view>
 		<swiper :duration="400" :disable-touch="true" class="swiper" :current="currentTab">
-			<!-- 购买礼品卡 begin -->
+			<!-- 购兑换礼品卡 begin -->
 			<swiper-item class="swiper-item-1" @touchmove.stop="handleSwiperItemChange">
 				<scroll-view scroll-y="true" class="h-100" style="padding-bottom: 80rpx;">
 					<image :src="giftCards.img" class="w-100" mode="widthFix"/>
@@ -22,12 +22,12 @@
 					</view>
 				</scroll-view>
 				<view class="footer">
-					<view>购买须知</view>
+					<view>购兑换须知</view>
 					<view class="divider"></view>
 					<view>礼品卡章程</view>
 				</view>
 			</swiper-item>
-			<!-- 购买礼品卡 end -->
+			<!-- 购兑换礼品卡 end -->
 			<!-- 我的礼品卡 begin -->
 			<swiper-item class="swiper-item-2" @touchmove.stop="handleSwiperItemChange">
 				<view class="header">

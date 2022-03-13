@@ -8,21 +8,21 @@
 		}, {
 			"path": "pages/menu/menu",
 			"style": {
-				"navigationBarTitleText": "奈雪の茶",
+				"navigationBarTitleText": "毛毛线线球",
 				"navigationBarTextStyle": "black",
 				"navigationBarBackgroundColor": "#ffffff"
 			}
 		}, {
 			"path": "pages/take-foods/take-foods",
 			"style": {
-				"navigationBarTitleText": "奈雪の茶",
+				"navigationBarTitleText": "毛毛线线球",
 				"navigationBarTextStyle": "black",
 				"navigationBarBackgroundColor": "#ffffff"
 			}
 		}, {
 			"path": "pages/mine/mine",
 			"style": {
-				"navigationBarTitleText": "奈雪乐园",
+				"navigationBarTitleText": "毛线球乐园",
 				"navigationBarTextStyle": "black",
 				"navigationBarBackgroundColor": "#ffffff"
 			}
@@ -30,7 +30,7 @@
 	    ,{
             "path" : "pages/pay/pay",
             "style" : {
-				"navigationBarTitleText": "奈雪の茶",
+				"navigationBarTitleText": "毛毛线线球",
 				"navigationBarTextStyle": "black",
 				"navigationBarBackgroundColor": "#ffffff"
 			}
@@ -38,7 +38,7 @@
         ,{
             "path" : "pages/remark/remark",
             "style" : {
-				"navigationBarTitleText": "奈雪の茶",
+				"navigationBarTitleText": "毛毛线线球",
 				"navigationBarTextStyle": "black",
 				"navigationBarBackgroundColor": "#ffffff"
 			}
@@ -55,7 +55,7 @@
         ,{
             "path" : "pages/packages/detail",
             "style" : {
-				"navigationBarTitleText": "购买劵包",
+				"navigationBarTitleText": "购兑换劵包",
 				"navigationBarTextStyle": "black",
 				"navigationBarBackgroundColor": "#ffffff",
 				"enablePullDownRefresh": true
@@ -88,7 +88,7 @@
         ,{
             "path" : "pages/address/add",
             "style" : {
-				"navigationBarTitleText": "奈雪の茶",
+				"navigationBarTitleText": "毛毛线线球",
 				"navigationBarTextStyle": "black",
 				"navigationBarBackgroundColor": "#ffffff"
 			}
@@ -167,7 +167,7 @@
         ,{
             "path" : "pages/review/review",
             "style" : {
-				"navigationBarTitleText": "奈雪の茶",
+				"navigationBarTitleText": "毛毛线线球",
 				"navigationBarTextStyle": "black",
 				"navigationBarBackgroundColor": "#ffffff"
 			}
@@ -175,7 +175,7 @@
         ,{
             "path" : "pages/activities/invite",
             "style" : {
-				"navigationBarTitleText": "奈雪の茶",
+				"navigationBarTitleText": "毛毛线线球",
 				"navigationBarTextStyle": "black",
 				"navigationBarBackgroundColor": "#ffffff"
 			}
@@ -183,7 +183,7 @@
         ,{
             "path" : "pages/services/services",
             "style" : {
-				"navigationBarTitleText": "奈雪の茶",
+				"navigationBarTitleText": "毛毛线线球",
 				"navigationBarTextStyle": "black",
 				"navigationBarBackgroundColor": "#ffffff"
 			}
@@ -191,7 +191,7 @@
         ,{
             "path" : "pages/invoice/invoice",
             "style" : {
-				"navigationBarTitleText": "奈雪の茶",
+				"navigationBarTitleText": "毛毛线线球",
 				"navigationBarTextStyle": "black",
 				"navigationBarBackgroundColor": "#ffffff"
 			}

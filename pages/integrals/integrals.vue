@@ -50,7 +50,7 @@
 									<view v-if="item.amount > 0" class="d-flex align-items-center font-size-sm text-color-assist" style="margin: 0 10rpx;">+</view>
 									<view  v-if="item.amount > 0"class="d-flex align-items-baseline">
 										<view class="font-size-base text-color-primary mr-10">{{ parseFloat(item.amount) }}</view>
-										<view class="font-size-sm text-color-assist">元</view>
+										<view class="font-size-sm text-color-assist">猫长</view>
 									</view>
 								</view>
 								<view class="font-size-sm text-color-assist">剩余{{ item.goods_stock }}件</view>

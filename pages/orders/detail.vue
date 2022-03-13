@@ -30,7 +30,7 @@
 								</view>
 								<view class="d-flex w-40 align-items-center justify-content-between pl-30">
 									<view class="font-size-base text-color-base">x{{ good.number }}</view>
-									<view class="font-size-base text-color-base font-weight-bold">￥{{ good.price }}</view>
+									<view class="font-size-base text-color-base font-weight-bold">猫长{{ good.price }}</view>
 								</view>
 							</view>
 						</view>
@@ -47,7 +47,7 @@
 							</view>
 							<view class="pay-cell">
 								<view>金额总计</view>
-								<view class="font-weight-bold">￥{{ order.amount }}</view>
+								<view class="font-weight-bold">猫长{{ order.amount }}</view>
 							</view>
 						</view>
 					</list-cell>

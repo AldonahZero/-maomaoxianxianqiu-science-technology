@@ -13,7 +13,7 @@
 							<view v-if="pointGood.amount > 0" class="font-size-sm text-color-base" style="margin: 0 10rpx;">+</view>
 							<view class="d-flex align-items-baseline" v-if="pointGood.amount > 0">
 								<view class="font-size-extra-lg text-color-primary mr-10 font-weight-bold">{{ pointGood.amount }}</view>
-								<view class="font-size-base text-color-base">元</view>
+								<view class="font-size-base text-color-base">猫长</view>
 							</view>
 						</view>
 						<view class="d-flex justify-content-between align-items-center">

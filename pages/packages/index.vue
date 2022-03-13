@@ -8,15 +8,15 @@
 				<view class="d-flex flex-fill flex-column justify-content-between" style="height: 160rpx;">
 					<view class="font-size-lg text-color-base">{{ item.title }}</view>
 					<view class="d-flex justify-content-between align-items-center">
-						<view class="font-size-sm">￥{{ item.amount }}</view>
-						<button type="primary" size="mini" plain class="pay-btn">去购买</button>
+						<view class="font-size-sm">猫长{{ item.amount }}</view>
+						<button type="primary" size="mini" plain class="pay-btn">去兑换</button>
 					</view>
 				</view>
 			</view>
 		</view>
 		<view class="d-flex position-fixed bg-base fixed-bottom text-color-primary font-size-base align-items-center just-content-center w-100"
 			style="height: 150rpx;">
-			<text>购买记录</text>
+			<text>购兑换记录</text>
 		</view>
 	</view>
 	<loading v-else></loading>

@@ -26,7 +26,7 @@
 							</view>
 							<view class="d-flex font-size-sm text-color-base align-items-center">
 								<view style="margin-right: 10rpx;">共{{ item.goods_num }}件商品，实付</view>
-								<view class="font-size-lg">￥{{ item.amount }}</view>
+								<view class="font-size-lg">猫长{{ item.amount }}</view>
 							</view>
 						</view>
 						<view class="d-flex align-items-center justify-content-end">

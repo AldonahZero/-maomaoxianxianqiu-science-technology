@@ -1,5 +1,5 @@
 {
-    "name" : "nxdc-milktea",
+    "name" : "maomaoxianxianqiu-science",
     "appid" : "",
     "description" : "",
     "versionName" : "1.0.0",
@@ -57,7 +57,7 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "",
+        "appid" : "wx660c6e4f884bf523",
         "setting" : {
             "urlCheck" : false,
             "es6" : false

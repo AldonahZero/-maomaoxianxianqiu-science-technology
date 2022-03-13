@@ -9,7 +9,7 @@ export default {
 	"is_open": true,
 	"server_status": true,
 	"created_at": "1568194697",
-	"street": "深圳市福田区海田路与福华一路交汇深圳天元5栋1层N136",
+	"street": "深圳市福田区海田路与福华一路交汇深圳天猫长5栋1层N136",
 	"area_id": 440304,
 	"notice": "",
 	"city_name": "深圳市",

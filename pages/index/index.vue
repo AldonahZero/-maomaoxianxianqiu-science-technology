@@ -4,18 +4,18 @@
 			<image src="https://img-shop.qmimg.cn/s23107/2020/04/26/3eb7808bf105262604.jpg" mode="" class="bg"></image>
 			<view class="intro">
 				<view class="greet">您好，{{ isLogin ? member.nickname : '游客' }}</view>
-				<view class="note">一杯奶茶，一口软欧包，在奈雪遇见两种美好</view>
+				<view class="note">一杯奶茶，一口软欧包，在毛线球遇见两种美好</view>
 			</view>
 		</view>
 		<view class="content">
 			<view class="entrance">
 				<view class="item" @tap="takein">
 					<image src="/static/images/index/zq.png" class="icon"></image>
-					<view class="title">自取</view>
+					<view class="title">下单</view>
 				</view>
 				<view class="item" @tap="takeout">
 					<image src="/static/images/index/wm.png" class="icon"></image>
-					<view class="title">外卖</view>
+					<view class="title">客服</view>
 				</view>
 			</view>
 			<view class="info">
@@ -25,7 +25,7 @@
 						<text class="value">411</text>
 					</view>
 					<view class="bottom">
-						进入积分商城兑换奈雪券及周边好礼
+						进入积分商城兑换毛线球券及周边好礼
 						<view class="iconfont iconarrow-right"></view>
 					</view>
 				</view>
@@ -39,7 +39,7 @@
 					<view class="grid flex-column just-content-center">
 						<view class="d-flex align-items-center">
 							<image src="/static/images/index/csc.png" class="mark-img"></image>
-							<view class="font-size-sm text-color-base">奈雪的茶商城</view>
+							<view class="font-size-sm text-color-base">毛线球的茶商城</view>
 						</view>
 						<view class="text-color-assist" style="margin-left: 40rpx; font-size: 20rpx;">优质茶礼盒，网红零食</view>
 					</view>
@@ -50,7 +50,7 @@
 				<view class="right">
 					<view class="tea-activity" @tap="invite">
 						<image src="/static/images/index/mcsb.png" class="mark-img"></image>
-						<view>买茶送包</view>
+						<view>兑换茶送包</view>
 						<view class="right-img">
 							<image src="/static/images/index/mcsb_bg.png" mode="widthFix"></image>
 						</view>

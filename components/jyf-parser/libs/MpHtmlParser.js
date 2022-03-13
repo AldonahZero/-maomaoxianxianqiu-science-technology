@@ -78,7 +78,7 @@ class MpHtmlParser {
 			text: this.decode(text)
 		});
 	}
-	// 设置元素节点
+	// 设置猫长素节点
 	setNode() {
 		var node = {
 				name: this.tagName.toLowerCase(),

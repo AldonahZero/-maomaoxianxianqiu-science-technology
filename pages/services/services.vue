@@ -10,14 +10,14 @@
 		<view class="cell">
 			<view class="content">
 				<image src="/static/images/services/gynx.png" class="icon"></image>
-				<view>关于奈雪</view>
+				<view>关于毛线球</view>
 			</view>
 			<image src="/static/images/navigator-1.png" class="navigator"></image>			
 		</view>
 		<view class="cell">
 			<view class="content">
 				<image src="/static/images/services/wdzl.png" class="icon"></image>
-				<view>奈雪礼物</view>
+				<view>毛线球礼物</view>
 			</view>
 			<image src="/static/images/navigator-1.png" class="navigator"></image>			
 		</view>

@@ -45,7 +45,7 @@
 						<view class="value font-size-extra-lg font-weight-bold text-color-base">
 							{{  isLogin ? member.couponNum : '***' }}
 						</view>
-						<view class="font-size-sm text-color-assist">奈雪券</view>
+						<view class="font-size-sm text-color-assist">毛线球券</view>
 					</view>
 					<view class="user-grid" @tap="integrals">
 						<view class="value font-size-extra-lg font-weight-bold text-color-base">
@@ -94,7 +94,7 @@
 					</view>
 					<view class="grid">
 						<image src="/static/images/mine/nxbz.png"></image>
-						<view>奈雪宝藏</view>
+						<view>毛线球宝藏</view>
 					</view>
 				</view>
 			</view>
@@ -124,7 +124,7 @@
 					<view class="image">
 						<image src="/static/images/mine/nxsc.png"></image>
 					</view>
-					<view>奈雪商城</view>
+					<view>毛线球商城</view>
 				</view>
 				<view class="grid">
 					<view class="image">
@@ -161,7 +161,7 @@
 		<!-- service box end -->
 		<!-- tips begin -->
 		<view class="d-flex just-content-center align-items-center text-color-assist" style="padding: 30rpx 0; font-size: 22rpx;">
-			会员卡适用于奈雪的茶和奈雪酒屋指定范围
+			会员卡适用于毛线球的茶和毛线球酒屋指定范围
 		</view>
 		<!-- tisps end -->
 	</view>

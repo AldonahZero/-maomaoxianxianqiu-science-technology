@@ -14,8 +14,8 @@
 				<progress :percent="1/3 * 100" backgroundColor="#FEEBD5" activeColor="#FEDC5F" stroke-width="30" border-radius="30"></progress>
 			</view>
 			<view class="d-flex flex-column text-color-danger font-size-sm align-items-center mb-40">
-				<view>每邀3位新用户点亮，得买茶送包劵1张</view>
-				<view>新用户可得30元权益劵包</view>
+				<view>每邀3位新用户点亮，得兑换茶送包劵1张</view>
+				<view>新用户可得30猫长权益劵包</view>
 			</view>
 			<view class="d-flex just-content-center" style="opacity: 0.8;" hover-class="opacity-1">
 				<view class="w-90 position-relative">
